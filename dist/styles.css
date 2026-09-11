@@ -5,3 +5,14 @@
 @media(max-width:380px){.header-book{font-size:11px;gap:4px}.header-book svg{display:none}.header{gap:10px}.hero-actions{gap:16px}.hero-actions .button{padding:14px 16px}.hero-actions .text-link{font-size:13px}.welcome-line{font-size:19px}.menu-tab{padding:8px 14px}.field-row{gap:12px}.booking-form{padding:20px}.visit-copy>.button{font-size:12px;gap:8px}h2,.space-copy h2,.visit-copy h2{font-size:43px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.hero-visual{clip-path:none;filter:none}}
 .menu-controls{flex-wrap:wrap}.dish-image img[src$="food-3.jpg"]{object-position:center 33%}
+
+/* The invitation sits on white, dissolving into a full-height food photograph. */
+.hero{position:relative;isolation:isolate;display:block;min-height:660px;padding:76px 5%;background:#fff;overflow:hidden}
+.hero-copy{position:relative;z-index:2;width:55%;max-width:660px;padding:0}
+.hero-visual{position:absolute;inset:0 0 0 auto;width:72%;height:100%;max-height:none;aspect-ratio:auto;margin:0;animation:none}
+.hero-visual>img{width:100%;height:100%;border-radius:0;object-position:60% center}
+.hero-visual::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#fff 0%,#fff 12%,rgba(255,255,255,.98) 25%,rgba(255,255,255,.90) 34%,rgba(255,255,255,.56) 47%,rgba(255,255,255,.16) 61%,rgba(255,255,255,0) 75%)}
+.hero-note{z-index:2;left:auto;right:7%;bottom:36px}
+@media(max-width:1100px) and (min-width:901px){.hero{min-height:610px;padding-top:64px;padding-bottom:64px}.hero-copy{width:60%}.hero-actions{gap:24px}.hero-note{right:6%;bottom:28px}}
+@media(max-width:900px){.hero{min-height:0;padding:44px 6% 320px}.hero-copy{width:100%;max-width:620px}.hero-visual{top:auto;bottom:0;left:0;right:0;width:100%;height:380px;max-height:none;aspect-ratio:auto;margin:0}.hero-visual>img{border-radius:0;object-position:center 60%}.hero-visual::after{background:linear-gradient(180deg,#fff 0%,rgba(255,255,255,.94) 12%,rgba(255,255,255,.58) 27%,rgba(255,255,255,.12) 45%,rgba(255,255,255,0) 62%)}.hero-note{left:auto;right:6%;bottom:24px}.hero-actions{flex-wrap:wrap}.hero-address{max-width:100%}}
+@media(max-width:400px){.hero{padding-top:36px;padding-bottom:280px}.hero-visual{height:340px}.hero-note{padding:16px 22px}.hero-actions{gap:18px}}
