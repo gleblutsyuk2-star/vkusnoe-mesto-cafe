@@ -16,7 +16,7 @@ Self-hosted Cormorant Garamond 500–700 for wordmark, headings and italic accen
 Anchored navigation with mobile disclosure and Escape dismissal. Menu filters use semantic buttons with aria-pressed. Booking is an explicitly labelled local demonstration; no personal-data input, storage, network submission or real booking occurs. Route and phone links lead to the verified cafe. Focus rings use #c29231. Reduced-motion preference disables animation and smooth scrolling.
 
 ## Motion and assets
-The hero background remains still to preserve the seamless white fade; menu photographs enlarge slightly on hover. All six shipped photographs have provenance in ASSET-SOURCES.md. No generated imagery. All fonts are local. No autoplay media, trackers, cookie banners or external scripts.
+The hero background remains still to preserve the seamless white fade; menu photographs enlarge slightly on hover. All five shipped photographs have provenance in ASSET-SOURCES.md. The pizza photograph is reused in the hero and menu to avoid shipping a duplicate asset. No generated imagery. All fonts are local. No autoplay media, trackers, cookie banners or external scripts.
 
 ## Validation scope
 JavaScript syntax and static asset/anchor references checked. Independent source review found one material mobile-filter overflow issue, fixed with flex-wrap:wrap and marked resolved by the reviewer. Browser visual testing was not performed. Do not represent this as a completed visual or accessibility certification.

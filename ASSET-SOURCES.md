@@ -4,7 +4,7 @@ All photographs are from the exact Yandex Maps business listing for Вкусно
 
 | Shipped file | Origin | Visible credit |
 |---|---|---|
-| hero.jpg / food-2.jpg | https://avatars.mds.yandex.net/get-altay/14238289/2a00000193e4654784088c8ca6deaeb62d12/XXXL | Ольга Глущенко, December 2024 |
+| hero.jpg | https://avatars.mds.yandex.net/get-altay/14238289/2a00000193e4654784088c8ca6deaeb62d12/XXXL | Ольга Глущенко, December 2024 |
 | food-1.jpg | https://avatars.mds.yandex.net/get-altay/14396200/2a00000193e471f04477c17114b5078be8b0/XXXL | Exact listing gallery; individual author not verified |
 | food-3.jpg | https://avatars.mds.yandex.net/get-altay/17021023/2a00000197d0b22aa5cc23fd6e74a77d58a8/XXXL | Exact listing gallery; individual author not verified |
 | interior.jpg | https://avatars.mds.yandex.net/get-altay/19646909/2a0000019f1c2acbd2020517f327738b8b9d/XXXL | Яндекс, June 2026 |
